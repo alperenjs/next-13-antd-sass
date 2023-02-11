@@ -1,0 +1,10 @@
+.alperen
+:global {
+ .ant-btn {
+    background-color: orange !important;
+    &:not(:disabled):hover{
+      color: red;
+    border-color: red;
+    }
+  }
+}
